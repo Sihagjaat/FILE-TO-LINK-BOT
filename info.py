@@ -8,28 +8,28 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'RexBots_Official')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'RexBots_Official')
+ADMINS = [int(i) for i in environ.get('ADMINS', '8467011403').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003596059605").split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ContactToAdminToBot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'SavefRobot')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/RexBots_Official')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/RexBots_Official')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/RexBots_Official')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/RexBots_Official')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/LinkDeBhaiZBot')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/linkdebhaioffical')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/linkdebhaioffical')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/linkdebhaioffical')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003792261535'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003792261535'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003792261535'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003792261535'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003596059605"))
 
 # ✅ __Feature Toggles__
-VERIFY = False  # Enable user verification
+VERIFY = True  # Enable user verification
 FSUB = environ.get("FSUB", True)  # Force Subscribe
-ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
+ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)
 BATCH_VERIFY = False
 IS_SHORTLINK = False
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
@@ -38,17 +38,17 @@ PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
 # 🔗 __Shortlink Configuration__
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'iteshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ef06fc6cd240bf19129e6392aca73fd267887996')
 
 # 💾 __Database Configuration__
 DB_URL = environ.get('DATABASE_URI', "")
 DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
 
 # 📸 __Media & Images__
-QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://ibb.co/mVkSySr7")
-AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/mVkSySr7')
+QR_CODE = environ.get('QR_CODE', 'https://iwlwarpgyagzsmxnjudq.supabase.co/storage/v1/object/public/images/telegram/1769451083750_6jcjb9.jpg')
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://iwlwarpgyagzsmxnjudq.supabase.co/storage/v1/object/public/images/telegram/1769076731137_m10tkh.jpg")
+AUTH_PICS = environ.get('AUTH_PICS', 'https://iwlwarpgyagzsmxnjudq.supabase.co/storage/v1/object/public/images/telegram/1769077188516_zjb0g4.jpg')
 PICS = environ.get('PICS', 'https://ibb.co/mVkSySr7')
 FILE_PIC = environ.get('FILE_PIC', 'https://ibb.co/mVkSySr7')
 
