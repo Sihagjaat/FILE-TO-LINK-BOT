@@ -27,11 +27,11 @@ VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003792261535'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003596059605"))
 
 # ✅ __Feature Toggles__
-VERIFY = True  # Enable user verification
+VERIFY = False  # Enable user verification
 FSUB = environ.get("FSUB", True)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)
 BATCH_VERIFY = False
-IS_SHORTLINK = True 
+IS_SHORTLINK = False 
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
