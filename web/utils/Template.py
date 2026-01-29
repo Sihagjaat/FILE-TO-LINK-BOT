@@ -1,5 +1,5 @@
 class rexbots_template(object):
-    NAME = "RexBots Official"
+    NAME = "LinkDeBhai"
 
     DISCLAIMER = (
         "This platform provides high-speed streaming and download services. "
