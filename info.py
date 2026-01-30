@@ -31,14 +31,14 @@ VERIFY = False  # Enable user verification
 FSUB = environ.get("FSUB", True)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)
 BATCH_VERIFY = False
-IS_SHORTLINK = False 
+IS_SHORTLINK = True 
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
 # 🔗 __Shortlink Configuration__
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'iteshort.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'iteshort.com/api?')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'ef06fc6cd240bf19129e6392aca73fd267887996')
 
 # 💾 __Database Configuration__
