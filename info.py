@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(i) for i in environ.get('ADMINS', '8467011403').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003596059605").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ContactToAdminToBot')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'FilesToLinkWBot)
+BOT_USERNAME = environ.get("BOT_USERNAME", 'FilesToLinkWBot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/LinkDeBhaiZBot')
