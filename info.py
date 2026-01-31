@@ -11,7 +11,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(i) for i in environ.get('ADMINS', '8467011403').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003596059605").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ContactToAdminToBot')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'SavefRobot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'FilesToLinkWBot)
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/LinkDeBhaiZBot')
@@ -28,10 +28,10 @@ SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003596059605"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
-FSUB = environ.get("FSUB", True)  # Force Subscribe
+FSUB = environ.get("FSUB", False)  # Force Subscribe
 ENABLE_LIMIT = environ.get("ENABLE_LIMIT", False)
 BATCH_VERIFY = False
-IS_SHORTLINK = True 
+IS_SHORTLINK = False 
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
 PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
