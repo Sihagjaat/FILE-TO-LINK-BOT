@@ -20,11 +20,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/linkdebhaioffical')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/linkdebhaioffical')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ''))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '0'))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '0'))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '0'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '0'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "0"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
