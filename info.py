@@ -8,10 +8,10 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '8467011403').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003596059605").split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '6891095964').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'ContactToAdminToBot')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'FilesToLinkWBot')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'FilesToLinkZBot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/LinkDeBhaiZBot')
@@ -20,11 +20,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/linkdebhaioffical')
 HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/linkdebhaioffical')
 
 # 📢 __Log Channels__
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003792261535'))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003792261535'))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003792261535'))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003792261535'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003596059605"))
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ''))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
